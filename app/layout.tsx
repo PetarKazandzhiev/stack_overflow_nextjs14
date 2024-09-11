@@ -2,13 +2,7 @@ import type { Metadata } from "next";
 import React from "react";
 import { Inter, Space_Grotesk } from "next/font/google";
 import "./globals.css";
-import {
-  ClerkProvider,
-  SignInButton,
-  SignedIn,
-  SignedOut,
-  UserButton,
-} from "@clerk/nextjs";
+import { ClerkProvider } from "@clerk/nextjs";
 import { ThemeProvider } from "@/context/ThemeProvider";
 
 const inter = Inter({
